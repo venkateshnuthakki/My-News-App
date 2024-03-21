@@ -1,0 +1,63 @@
+
+#ne1{
+    font-size: 20px;
+    font-weight: bolder;
+}
+#he{
+    color: red;
+    font-weight: 600;
+    font-size: 20px;
+    font-style: italic;
+    border: 2px ;
+    margin-left: 10px;
+    /* border-radius: 0px 100px 0px 0px; */
+    background-color: white;
+    
+    
+}
+#lo{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 45px;
+}
+#ne1 {
+    display: inline-block;
+    position: relative;
+    margin-right: 20px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #333;
+   
+  }
+  
+  #ne1::after {
+    content: '';
+    position: absolute;
+    left: 50%; 
+    transform: translateX(-50%); 
+    bottom: 0;
+    width: 0;
+    height: 3px;
+    background-color:red;
+    transition: width 0.5s;
+  }
+  
+  #ne1:hover::after {
+    width: 100%;
+    
+  }
+  #ne1:hover{
+    background-color: white;
+    border-radius: 15px 15px 0px 0px;
+    transform: scale(1.2);
+  }
+
+  body{
+    background-image: url(https://images.unsplash.com/photo-1504711434969-e33886168f5c?q=80&w=1000&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8bmV3c3BhcGVyfGVufDB8fDB8fHww);
+    background-size: cover;
+  }
+  #tnav a.active {
+    font-size: 20px;
+    background-color: green;
+    color: white;
+    
+  }

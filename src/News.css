@@ -1,0 +1,44 @@
+#mh{
+    text-align: center;
+}
+#card{
+    display: flex;
+    flex-wrap: wrap;
+}
+body{
+    background-color: aliceblue;
+}
+#cm{
+    
+    transform: scale(0.8);
+}
+/* #cm:hover{
+    transform: scale(0.9);
+    box-shadow: 10px 10px 50px 0px;
+  
+} */
+#cbt:hover{
+    background-color: orange;
+    transform: scale(1.2);
+}
+
+#tc:hover{
+    transform: scale(1.0);
+    box-shadow: 20px 20px 50px 0px rgb(92, 92, 86);
+}
+#tc{
+    /* background-color:red;
+    color: white; */
+    backdrop-filter: blur(7px);
+    -webkit-backdrop-filter: blur(7px);
+    background: white;
+    
+    box-shadow: 0px 0px 10px 1px black;
+}
+#mar{
+    background-color:transparent;
+    border: 1px inset;
+    backdrop-filter: blur(8px);
+    box-shadow: 1px 1px 10px 1px black; 
+    
+}
